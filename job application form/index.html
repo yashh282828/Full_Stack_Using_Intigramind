@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Application Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Job Application Form</h1>
+
+  <!-- Form Start -->
+  <form>
+
+    <!-- Personal Details -->
+    <fieldset>
+      <legend><b>Personal Details</b></legend>
+
+      <label for="name">First Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="name">Second Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+    </fieldset>
+    <br>
+       <!-- Job Related -->
+    <fieldset>
+      <legend><b>Job Details</b></legend>
+
+      <label for="position">Position Applying For:</label><br>
+      <input type="text" id="position" name="position" required><br><br>
+
+      <label for="resume">Upload Resume:</label><br>
+      <input type="file" id="resume" name="resume"><br><br>
+
+      <label for="experience">Year of Experience</label>
+      <input type="number" id="experience" name="experience" min="0" max="50"><br><br>
+    </fieldset>
+    <br>
+
+    <!-- Availability -->
+    <fieldset>
+      <legend><b>Availability</b></legend>
+
+      <label for="exp">Available Start</label>
+      <input type="date" id="exp" name="exp" required><br><br>
+
+      <label for="transfer">Willing To Relocate :</label><br>
+      <input type="radio" id="no-transfer" name="transfer">
+      <label for="transfer">Yes</label><br>
+      <input type="radio" id="transfer" name="transfer">
+      <label for="no transfer">No</label><br>
+    </fieldset>
+    <br>
+
+
+    <!-- Submit -->
+    <input type="submit" value="Submit Application">
+
+  </form>
+</body>
+</html>

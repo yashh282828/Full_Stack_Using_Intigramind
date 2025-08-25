@@ -1,0 +1,42 @@
+ /* Group Selector */
+h1, h2, h3 {
+      color: #333;
+    }
+
+
+    /* Class Selector */
+    .section1, .section2 {
+     
+      margin: 20px auto;
+      background : rgb(109, 221, 255);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px gray;
+    }
+
+     /* ID Selector */
+    #header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Descendant Selector */
+    .section1 p {
+      color: #fa7575;
+    }
+
+     /* Universal Selector */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Element Selector */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+    }

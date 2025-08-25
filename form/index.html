@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Registration Form</h1>
+        <form action="Thanks.html">
+            <table border="1px" >
+                <tr>
+                    <td><label for="f-name">First Name :</label></td>
+                    <td><input type="text" id="f-name" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="l-name">Last Name :</label></td>
+                    <td><input type="text" id="l-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Email :</label></td>
+                    <td><input type="email" id="mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password :</label></td>
+                    <td><input type="password" id="pass"></td>
+                </tr>
+                <!-- <tr>
+                    <td>Emotions :</td>
+                    <td>
+                        <input type="checkbox" id="angry"> <label for="angry">Angry</label><br>
+                        <input type="checkbox" id="sad"> <label for="sad">Sad</label><br>
+                        <input type="checkbox" id="happy"> <label for="happy">Happy</label>
+                    </td>
+                </tr>
+                <tr>
+                   -->
+                     <td>Satisfaction :</td>
+                    <td>
+                        <input type="checkbox" id="very-satisfied"> 
+                        <label for="very-satisfied">Very satisfied</label><br>
+                        <input type="checkbox" id="satisfied"> 
+                        <label for="satisfied">Satisfied</label><br>
+                        <input type="checkbox" id="dont-care"> 
+                        <label for="dont-care">Don't care</label>
+                    </td> 
+
+                </tr>
+                <tr>
+                    <td><label for="comment">Further Comment :</label></td>
+                    <td><textarea name="comment" id="comment" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="photo">Bio Photo :</label></td>
+                    <td><input type="file" id="photo" accept="images/*"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country :</label></td>
+                    <td>
+                        <select id="country">
+                            <option value="India" selected>India</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center; justify-content: center;">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
