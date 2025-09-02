@@ -1,0 +1,118 @@
+
+
+/* its a simple calculator app made by Me. */
+/* .display{
+    width: 95%;
+    height: 100px;
+    background-color: #eadbc2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+
+}
+
+.calculator{
+    width: 550px;
+    
+    margin:200px auto;
+    padding: 20px;
+    border: 2px solid #040404;
+    border-radius: 10px;
+    background-color: #f6f1f1;
+}
+.btn{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;   
+    background: #e5e0e0;
+    border: #040404 1px solid;
+    border-radius: 10px;
+    margin: 1px;
+}
+.target{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;   
+    background: #00ffee;
+    border: #040404 1px solid;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+.pop{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;   
+    background: #f09b9b;
+    border: #040404 1px solid;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+ */
+
+
+ *{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  align-items: center;
+}
+.label{
+  align-items: end;
+}
+
+.container .panel .feed{
+  font-size: 70px;
+  text-align: right;
+  padding: 50px 10px;
+  color: white;
+}
+
+.container{
+  background-color: #1c1c1c;
+  display: inline-block;
+  padding: 30px 50px;
+  border-radius: 30px;
+  align-items: center;
+  position: relative;
+  top: 300px;
+  left: 35%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+.container .line button{
+  color: white;
+
+  font-size: 30px;
+  height: 60px;
+  width: 100px;
+  margin: 5px 5px;
+  border-radius: 35px;
+  border: none ;
+  background: #505050;
+  transition: opacity 0.25s;
+
+
+}
+.container .line .operator-button{
+  background-color: #FF9500;
+}
+.container .line .operator-button2{
+  background-color: #D4D4D2;
+}
+
+.container .line button:hover{
+  opacity: 0.8;
+}
+
+.container .line button:active{
+  opacity: 0.6;
+}
