@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f9;
+}
+
+/* Card container */
+.card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual cards */
+.card > div {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 220px;
+}
+
+/* Image styling */
+.card img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hover effect */
+.card > div:hover {
+   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+/* Heading */
+.card h2 {
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+/* Paragraph */
+.card p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Button styling */
+.card button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover */
+.card button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
